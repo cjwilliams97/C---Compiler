@@ -1,2 +1,2 @@
-# C---Compiler
+# C--Compiler
 A C-- compiler for the TinyMachine
