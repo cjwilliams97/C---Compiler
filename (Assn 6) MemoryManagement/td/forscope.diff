@@ -1,0 +1,36 @@
+====================================										====================================
+FILE: forscope.c-												FILE: forscope.c-
+values is array 3											     <
+ERROR(5): Cannot use array in position 1 in range of for statement.						ERROR(5): Cannot use array in position 1 in range of for statement.
+values is array 5											     <
+ERROR(6): Symbol 'x' is already declared at line 5.								ERROR(6): Symbol 'x' is already declared at line 5.
+x not array 7												     <
+ERROR(10): Cannot use array in position 1 in range of for statement.						ERROR(10): Cannot use array in position 1 in range of for statement.
+values is array 10											     <
+x not array 12												     <
+WARNING(10): The variable 'x' seems not to be used.								WARNING(10): The variable 'x' seems not to be used.
+ERROR(15): Cannot use array in position 1 in range of for statement.						ERROR(15): Cannot use array in position 1 in range of for statement.
+values is array 15											     <
+ERROR(16): Symbol 'x' is already declared at line 15.								ERROR(16): Symbol 'x' is already declared at line 15.
+x not array 19												     <
+WARNING(15): The variable 'x' seems not to be used.								WARNING(15): The variable 'x' seems not to be used.
+ERROR(22): Cannot use array in position 1 in range of for statement.						ERROR(22): Cannot use array in position 1 in range of for statement.
+values is array 22											     <
+x not array 23												     <
+x not array 25												     <
+ERROR(28): Cannot use array in position 1 in range of for statement.						ERROR(28): Cannot use array in position 1 in range of for statement.
+values is array 28											     <
+ERROR(29): Symbol 'x' is already declared at line 28.								ERROR(29): Symbol 'x' is already declared at line 28.
+x not array 30												     <
+x not array 31												     <
+ERROR(35): Cannot use array in position 1 in range of for statement.						ERROR(35): Cannot use array in position 1 in range of for statement.
+values is array 35											     <
+x not array 37												     <
+x not array 38												     <
+x not array 41												     <
+ERROR(44): Cannot use array in position 1 in range of for statement.						ERROR(44): Cannot use array in position 1 in range of for statement.
+values is array 44											     <
+x not array 46												     <
+x not array 48												     <
+Number of warnings: 2												Number of warnings: 2
+Number of errors: 10												Number of errors: 10

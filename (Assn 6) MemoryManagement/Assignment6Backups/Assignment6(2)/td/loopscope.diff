@@ -1,0 +1,11 @@
+====================================										====================================
+FILE: loopscope.c-												FILE: loopscope.c-
+ERROR(6): Symbol 'y' is already declared at line 5.								ERROR(6): Symbol 'y' is already declared at line 5.
+x not array 9												     <
+y not array 9												     <
+x not array 11												     <
+ERROR(11): Symbol 'y' is not declared.										ERROR(11): Symbol 'y' is not declared.
+x not array 12												     <
+y not array 12												     <
+Number of warnings: 0												Number of warnings: 0
+Number of errors: 2												Number of errors: 2

@@ -1,0 +1,19 @@
+====================================										====================================
+FILE: tinyVar.c-												FILE: tinyVar.c-
+gx not array 8												     <
+gy is array 9												     <
+gy is array 10												     <
+x not array 12												     <
+WARNING(12): Variable 'x' may be uninitialized when used here.							WARNING(12): Variable 'x' may be uninitialized when used here.
+y is array 13												     <
+WARNING(13): Variable 'y' may be uninitialized when used here.							WARNING(13): Variable 'y' may be uninitialized when used here.
+y is array 14												     <
+px not array 16												     <
+py is array 17												     <
+py is array 18												     <
+sx not array 20												     <
+sy is array 21												     <
+sy is array 22												     <
+ERROR(LINKER): A function named 'main' with no parameters must be defined.					ERROR(LINKER): A function named 'main' with no parameters must be defined.
+Number of warnings: 2												Number of warnings: 2
+Number of errors: 1												Number of errors: 1

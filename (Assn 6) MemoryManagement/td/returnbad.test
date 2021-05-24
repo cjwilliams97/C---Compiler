@@ -1,0 +1,11 @@
+====================================
+FILE: returnbad.c-
+ERROR(1): Function 'ruby' at line 1 is expecting to return type int but returns type bool.
+ERROR(2): Function 'weiss' at line 2 is expecting to return type int but return has no value.
+WARNING(3): Expecting to return type int but function 'blake' has no return statement.
+ERROR(4): Function 'yang' at line 4 is expecting no return value, but return has a value.
+ERROR(5): Cannot return an array.
+ERROR(LINKER): A function named 'main' with no parameters must be defined.
+WARNING(1): The function 'ruby' seems not to be used.
+Number of warnings: 2
+Number of errors: 5

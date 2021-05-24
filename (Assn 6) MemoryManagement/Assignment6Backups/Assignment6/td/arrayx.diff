@@ -1,0 +1,27 @@
+====================================										====================================
+FILE: arrayx.c-													FILE: arrayx.c-
+ERROR(6): Initializer for variable 'bb' requires both operands be arrays or not but variable is an array and	ERROR(6): Initializer for variable 'bb' requires both operands be arrays or not but variable is an array and
+ERROR(7): Initializer for variable 'cc' requires both operands be arrays or not but variable is an array and	ERROR(7): Initializer for variable 'cc' requires both operands be arrays or not but variable is an array and
+ERROR(8): Initializer for variable 'ii' requires both operands be arrays or not but variable is an array and	ERROR(8): Initializer for variable 'ii' requires both operands be arrays or not but variable is an array and
+ERROR(10): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.		ERROR(10): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.
+b is array 10												     <
+ERROR(11): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.		ERROR(11): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.
+c is array 11												     <
+ERROR(12): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.		ERROR(12): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.
+i is array 12												     <
+bb is array 13												     <
+b is array 13												     <
+cc is array 14												     <
+ii is array 15												     <
+i is array 15												     <
+i is array 16												     <
+a not array 17												     <
+i is array 17												     <
+i is array 18												     <
+a not array 18												     <
+a not array 19												     <
+d not array 19												     <
+WARNING(19): Variable 'd' may be uninitialized when used here.							WARNING(19): Variable 'd' may be uninitialized when used here.
+WARNING(2): The variable 'e' seems not to be used.								WARNING(2): The variable 'e' seems not to be used.
+Number of warnings: 2												Number of warnings: 2
+Number of errors: 6												Number of errors: 6

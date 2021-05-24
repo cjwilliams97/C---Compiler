@@ -1,0 +1,17 @@
+====================================										====================================
+FILE: assignb.c-												FILE: assignb.c-
+ERROR(7): Symbol 'x' is not declared.										ERROR(7): Symbol 'x' is not declared.
+ERROR(7): Symbol 'x' is not declared.										ERROR(7): Symbol 'x' is not declared.
+ERROR(8): Symbol 'x' is not declared.										ERROR(8): Symbol 'x' is not declared.
+aa is array 9												     <
+WARNING(9): Variable 'aa' may be uninitialized when used here.							WARNING(9): Variable 'aa' may be uninitialized when used here.
+bb is array 10												     <
+a not array 10												     <
+b not array 10												     <
+WARNING(10): Variable 'b' may be uninitialized when used here.							WARNING(10): Variable 'b' may be uninitialized when used here.
+b not array 12												     <
+cc is array 12												     <
+WARNING(12): Variable 'cc' may be uninitialized when used here.							WARNING(12): Variable 'cc' may be uninitialized when used here.
+WARNING(5): The variable 'c' seems not to be used.								WARNING(5): The variable 'c' seems not to be used.
+Number of warnings: 4												Number of warnings: 4
+Number of errors: 3												Number of errors: 3

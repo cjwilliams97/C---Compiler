@@ -1,0 +1,17 @@
+====================================										====================================
+FILE: compfunc.c-												FILE: compfunc.c-
+ERROR(4): Symbol 'x' is already declared at line 3.								ERROR(4): Symbol 'x' is already declared at line 3.
+x not array 6												     <
+x not array 8												     <
+x not array 14												     <
+x not array 16												     <
+x not array 20												     <
+x not array 22												     <
+x not array 26												     <
+WARNING(25): The parameter 'x' seems not to be used.								WARNING(25): The parameter 'x' seems not to be used.
+WARNING(3): The function 'elk' seems not to be used.								WARNING(3): The function 'elk' seems not to be used.
+WARNING(11): The function 'fox' seems not to be used.								WARNING(11): The function 'fox' seems not to be used.
+WARNING(19): The function 'gnu' seems not to be used.								WARNING(19): The function 'gnu' seems not to be used.
+WARNING(25): The function 'hog' seems not to be used.								WARNING(25): The function 'hog' seems not to be used.
+Number of warnings: 5												Number of warnings: 5
+Number of errors: 1												Number of errors: 1

@@ -1,0 +1,18 @@
+====================================										====================================
+FILE: mixedControl3.c-												FILE: mixedControl3.c-
+ERROR(7): Expecting Boolean test condition in if statement but got type int.					ERROR(7): Expecting Boolean test condition in if statement but got type int.
+x not array 8												     <
+x not array 8												     <
+x not array 8												     <
+ERROR(9): Expecting Boolean test condition in if statement but got type int.					ERROR(9): Expecting Boolean test condition in if statement but got type int.
+x not array 10												     <
+ERROR(14): Expecting Boolean test condition in if statement but got type int.					ERROR(14): Expecting Boolean test condition in if statement but got type int.
+x not array 15												     <
+x not array 15												     <
+x not array 17												     <
+ERROR(19): Expecting Boolean test condition in if statement but got type int.					ERROR(19): Expecting Boolean test condition in if statement but got type int.
+x not array 21												     <
+WARNING(20): The variable 'x' seems not to be used.								WARNING(20): The variable 'x' seems not to be used.
+WARNING(5): The variable 'x' seems not to be used.								WARNING(5): The variable 'x' seems not to be used.
+Number of warnings: 2												Number of warnings: 2
+Number of errors: 4												Number of errors: 4

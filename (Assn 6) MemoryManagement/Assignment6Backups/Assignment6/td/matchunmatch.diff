@@ -1,0 +1,46 @@
+====================================										====================================
+FILE: matchunmatch.c-												FILE: matchunmatch.c-
+ERROR(6): Expecting Boolean test condition in if statement but got type int.					ERROR(6): Expecting Boolean test condition in if statement but got type int.
+t not array 6												     <
+WARNING(6): Variable 't' may be uninitialized when used here.							WARNING(6): Variable 't' may be uninitialized when used here.
+a not array 6												     <
+WARNING(6): Variable 'a' may be uninitialized when used here.							WARNING(6): Variable 'a' may be uninitialized when used here.
+b not array 6												     <
+WARNING(6): Variable 'b' may be uninitialized when used here.							WARNING(6): Variable 'b' may be uninitialized when used here.
+ERROR(7): Expecting Boolean test condition in if statement but got type int.					ERROR(7): Expecting Boolean test condition in if statement but got type int.
+t not array 7												     <
+u not array 7												     <
+WARNING(7): Variable 'u' may be uninitialized when used here.							WARNING(7): Variable 'u' may be uninitialized when used here.
+a not array 7												     <
+b not array 7												     <
+ERROR(8): Expecting Boolean test condition in if statement but got type int.					ERROR(8): Expecting Boolean test condition in if statement but got type int.
+a not array 8												     <
+u not array 8												     <
+b not array 8												     <
+v not array 8												     <
+WARNING(8): Variable 'v' may be uninitialized when used here.							WARNING(8): Variable 'v' may be uninitialized when used here.
+c not array 8												     <
+WARNING(8): Variable 'c' may be uninitialized when used here.							WARNING(8): Variable 'c' may be uninitialized when used here.
+d not array 8												     <
+WARNING(8): Variable 'd' may be uninitialized when used here.							WARNING(8): Variable 'd' may be uninitialized when used here.
+ERROR(9): Expecting Boolean test condition in if statement but got type int.					ERROR(9): Expecting Boolean test condition in if statement but got type int.
+t not array 9												     <
+u not array 9												     <
+b not array 9												     <
+v not array 9												     <
+c not array 9												     <
+d not array 9												     <
+ERROR(10): Expecting Boolean test condition in if statement but got type int.					ERROR(10): Expecting Boolean test condition in if statement but got type int.
+t not array 10												     <
+b not array 10												     <
+WARNING(10): The variable 'z' seems not to be used.								WARNING(10): The variable 'z' seems not to be used.
+c not array 10												     <
+ERROR(11): Expecting Boolean test condition in if statement but got type int.					ERROR(11): Expecting Boolean test condition in if statement but got type int.
+t not array 11												     <
+u not array 11												     <
+b not array 11												     <
+WARNING(11): The variable 'z' seems not to be used.								WARNING(11): The variable 'z' seems not to be used.
+c not array 11												     <
+WARNING(3): The variable 's' seems not to be used.								WARNING(3): The variable 's' seems not to be used.
+Number of warnings: 10												Number of warnings: 10
+Number of errors: 6												Number of errors: 6

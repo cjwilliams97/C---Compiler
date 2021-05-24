@@ -1,0 +1,8 @@
+====================================										====================================
+FILE: fail.c-													FILE: fail.c-
+ERROR(3): Symbol 'g' is already declared at line 2.								ERROR(3): Symbol 'g' is already declared at line 2.
+ERROR(8): Symbol 'x' is already declared at line 7.								ERROR(8): Symbol 'x' is already declared at line 7.
+g not array 10												     <
+x not array 11												     <
+Number of warnings: 0												Number of warnings: 0
+Number of errors: 2												Number of errors: 2

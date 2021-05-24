@@ -1,0 +1,38 @@
+====================================										====================================
+FILE: uninit.c-													FILE: uninit.c-
+ERROR(3): Symbol 'z' is already declared at line 3.								ERROR(3): Symbol 'z' is already declared at line 3.
+ERROR(3): Symbol 'z' is already declared at line 3.								ERROR(3): Symbol 'z' is already declared at line 3.
+z not array 5												     <
+i not array 5												     <
+WARNING(5): Variable 'i' may be uninitialized when used here.							WARNING(5): Variable 'i' may be uninitialized when used here.
+z not array 6												     <
+i not array 6												     <
+i not array 7												     <
+g not array 7												     <
+WARNING(7): Variable 'g' may be uninitialized when used here.							WARNING(7): Variable 'g' may be uninitialized when used here.
+i not array 8												     <
+h not array 8												     <
+WARNING(8): Variable 'h' may be uninitialized when used here.							WARNING(8): Variable 'h' may be uninitialized when used here.
+j not array 9												     <
+WARNING(9): Variable 'j' may be uninitialized when used here.							WARNING(9): Variable 'j' may be uninitialized when used here.
+k not array 10												     <
+WARNING(10): Variable 'k' may be uninitialized when used here.							WARNING(10): Variable 'k' may be uninitialized when used here.
+l not array 11												     <
+WARNING(11): Variable 'l' may be uninitialized when used here.							WARNING(11): Variable 'l' may be uninitialized when used here.
+m not array 12												     <
+WARNING(12): Variable 'm' may be uninitialized when used here.							WARNING(12): Variable 'm' may be uninitialized when used here.
+ERROR(13): Symbol 'dog' is not declared.									ERROR(13): Symbol 'dog' is not declared.
+main not array 14											     <
+ERROR(14): Cannot use function 'main' as a variable.								ERROR(14): Cannot use function 'main' as a variable.
+g not array 15												     <
+h not array 15												     <
+i not array 15												     <
+j not array 15												     <
+k not array 15												     <
+l not array 15												     <
+m not array 15												     <
+z not array 15												     <
+WARNING(1): The parameter 'x' seems not to be used.								WARNING(1): The parameter 'x' seems not to be used.
+ERROR(LINKER): A function named 'main' with no parameters must be defined.					ERROR(LINKER): A function named 'main' with no parameters must be defined.
+Number of warnings: 8												Number of warnings: 8
+Number of errors: 5												Number of errors: 5

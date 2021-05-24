@@ -1,0 +1,23 @@
+====================================										====================================
+FILE: mem.c-													FILE: mem.c-
+x not array 8												     <
+p not array 8												     <
+WARNING(7): The variable 'z' seems not to be used.								WARNING(7): The variable 'z' seems not to be used.
+y not array 13												     <
+ERROR(14): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.		ERROR(14): '=' requires both operands be arrays or not but lhs is an array and rhs is not an array.
+w is array 14												     <
+y not array 14												     <
+ERROR(15): '=' requires both operands be arrays or not but lhs is not an array and rhs is an array.		ERROR(15): '=' requires both operands be arrays or not but lhs is not an array and rhs is an array.
+v not array 15												     <
+w is array 15												     <
+w is array 16												     <
+w is array 16												     <
+q not array 32												     <
+g not array 32												     <
+l not array 32												     <
+s not array 32												     <
+g not array 33												     <
+WARNING(23): The variable 'bb' seems not to be used.								WARNING(23): The variable 'bb' seems not to be used.
+WARNING(24): The variable 'c' seems not to be used.								WARNING(24): The variable 'c' seems not to be used.
+Number of warnings: 3												Number of warnings: 3
+Number of errors: 2												Number of errors: 2

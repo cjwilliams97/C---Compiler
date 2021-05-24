@@ -1,0 +1,58 @@
+====================================									     <
+FILE: loctest2.c-											     <
+WARNING(13): Variable 'b' may be uninitialized when used here.							WARNING(13): Variable 'b' may be uninitialized when used here.														
+WARNING(4): The parameter 'p' seems not to be used.								WARNING(4): The parameter 'p' seems not to be used.														
+WARNING(4): The parameter 'q' seems not to be used.								WARNING(4): The parameter 'q' seems not to be used.														
+WARNING(11): The variable 'z' seems not to be used.								WARNING(11): The variable 'z' seems not to be used.														
+WARNING(26): The variable 'b' seems not to be used.								WARNING(26): The variable 'b' seems not to be used.														
+WARNING(26): The variable 'c' seems not to be used.								WARNING(26): The variable 'c' seems not to be used.														
+WARNING(26): The variable 'd' seems not to be used.								WARNING(26): The variable 'd' seems not to be used.														
+WARNING(29): The variable 'e' seems not to be used.								WARNING(29): The variable 'e' seems not to be used.														
+WARNING(29): The variable 'f' seems not to be used.								WARNING(29): The variable 'f' seems not to be used.														
+WARNING(24): The variable 'a' seems not to be used.								WARNING(24): The variable 'a' seems not to be used.														
+WARNING(4): The function 'beachDay' seems not to be used.							WARNING(4): The function 'beachDay' seems not to be used.														
+WARNING(1): The variable 'g' seems not to be used.								WARNING(1): The variable 'g' seems not to be used.														
+WARNING(2): The variable 'h' seems not to be used.								WARNING(2): The variable 'h' seems not to be used.														
+Var: g of type int [mem: Global loc: 0 size: 1] [line: 1]						     |	Var: g  type int [mem: Global loc: 0 size: 1] [line: 1]														
+Sibling: 1 Var: h of array of type char [mem: Global loc: -7 size: 11] [line: 2]			     |	Sibling: 1  Var: h  array of type char [mem: Global loc: -7 size: 11] [line: 2]														
+.   Child: 0 Const  "dogs" of array of type char [mem: Global loc: -2 size: 5] [line: 2]		     |	.   Child: 0  Const "dogs" [mem: Global loc: -2 size: 5] of array of type char [line: 2]														
+Sibling: 2 Func: beachDay returns type void [mem: Global loc: 0 size: -4] [line: 4]				Sibling: 2  Func: beachDay returns type void [mem: Global loc: 0 size: -4] [line: 4]														
+.   Child: 0 Parm: p of type int [mem: Parameter loc: -2 size: 1] [line: 4]				     |	.   Child: 0  Parm: p  type int [mem: Parameter loc: -2 size: 1] [line: 4]														
+.   Sibling: 1 Parm: q of array of type int [mem: Parameter loc: -3 size: 1] [line: 4]			     |	.   Sibling: 1  Parm: q  array of type int [mem: Parameter loc: -3 size: 1] [line: 4]														
+.   Child: 1 Compound [mem: None loc: 0 size: -17] [line: 5]							.   Child: 1  Compound [mem: None loc: 0 size: -17] [line: 5]														
+.   .   Child: 0 Var: a of type int [mem: Local loc: -4 size: 1] [line: 6]				     |	.   .   Child: 0  Var: a  type int [mem: Local loc: -4 size: 1] [line: 6]														
+.   .   .   Child: 0 Const 17 of type int [line: 6]								.   .   .   Child: 0  Const 17 of type int [line: 6]														
+.   .   Sibling: 1 Var: b of array of type bool [mem: Local loc: -6 size: 11] [line: 7]			     |	.   .   Sibling: 1  Var: b  array of type bool [mem: Local loc: -6 size: 11] [line: 7]														
+.   .   Sibling: 2 Var: s of static type int [mem: LocalStatic loc: -17 size: 1] [line: 8]		     |	.   .   Sibling: 2  Var: s  static type int [mem: LocalStatic loc: -17 size: 1] [line: 8]														
+.   .   Sibling: 3 Var: t of static array of type int [mem: LocalStatic loc: -19 size: 11] [line: 9]	     |	.   .   Sibling: 3  Var: t  static array of type int [mem: LocalStatic loc: -19 size: 11] [line: 9]														
+.   .   Sibling: 4 Var: u of static array of type char [mem: LocalStatic loc: -36 size: 11] [line: 10]	     |	.   .   Sibling: 4  Var: u  static array of type char [mem: LocalStatic loc: -36 size: 11] [line: 10]														
+.   .   .   Child: 0 Const  "corgi" of array of type char [mem: Global loc: -30 size: 6] [line: 10]	     |	.   .   .   Child: 0  Const "corgi" [mem: Global loc: -30 size: 6] of array of type char [line: 10]														
+.   .   Sibling: 5 Var: z of type int [mem: Local loc: -16 size: 1] [line: 11]				     |	.   .   Sibling: 5  Var: z  type int [mem: Local loc: -16 size: 1] [line: 11]														
+.   .   Child: 1 Id: a of type int [mem: Local loc: -4 size: 1] [line: 12]				     |	.   .   Child: 1  Id: a [mem: Local loc: -4 size: 1] of type int [line: 12]														
+.   .   Sibling: 1 Id: b of array of type bool [mem: Local loc: -6 size: 11] [line: 13]			     |	.   .   Sibling: 1  Id: b [mem: Local loc: -6 size: 11] of array of type bool [line: 13]														
+.   .   Sibling: 2 Id: s of static type int [mem: LocalStatic loc: -17 size: 1] [line: 14]		     |	.   .   Sibling: 2  Id: s [mem: LocalStatic loc: -17 size: 1] of static type int [line: 14]														
+.   .   Sibling: 3 Id: t of static array of type int [mem: LocalStatic loc: -19 size: 11] [line: 15]	     |	.   .   Sibling: 3  Id: t [mem: LocalStatic loc: -19 size: 11] of static array of type int [line: 15]														
+.   .   Sibling: 4 Id: u of static array of type char [mem: LocalStatic loc: -36 size: 11] [line: 16]	     |	.   .   Sibling: 4  Id: u [mem: LocalStatic loc: -36 size: 11] of static array of type char [line: 16]														
+.   .   Sibling: 5 Const 666 of type int [line: 17]								.   .   Sibling: 5  Const 666 of type int [line: 17]														
+.   .   Sibling: 6 Const 'x' of type char [line: 18]								.   .   Sibling: 6  Const 'x' of type char [line: 18]														
+.   .   Sibling: 7 Const  "purple" of array of type char [mem: Global loc: 0 size: 0] [line: 19]	     |	.   .   Sibling: 7  Const "purple" [mem: Global loc: -47 size: 7] of array of type char [line: 19]														
+.   .   Sibling: 8 Const true of type bool [line: 20]								.   .   Sibling: 8  Const true of type bool [line: 20]														
+Sibling: 3 Func: main returns type void [mem: Global loc: 0 size: -2] [line: 23]				Sibling: 3  Func: main returns type void [mem: Global loc: 0 size: -2] [line: 23]														
+.   Child: 1 Compound [mem: None loc: 0 size: -3] [line: 23]							.   Child: 1  Compound [mem: None loc: 0 size: -3] [line: 23]														
+.   .   Child: 0 Var: a of type int [mem: Local loc: -2 size: 1] [line: 24]				     |	.   .   Child: 0  Var: a  type int [mem: Local loc: -2 size: 1] [line: 24]														
+.   .   Child: 1 Compound [mem: None loc: 0 size: -6] [line: 25]						.   .   Child: 1  Compound [mem: None loc: 0 size: -6] [line: 25]														
+.   .   .   Child: 0 Var: b of type int [mem: Local loc: -3 size: 1] [line: 26]				     |	.   .   .   Child: 0  Var: b  type int [mem: Local loc: -3 size: 1] [line: 26]														
+.   .   .   Sibling: 1 Var: c of type int [mem: Local loc: -4 size: 1] [line: 26]			     |	.   .   .   Sibling: 1  Var: c  type int [mem: Local loc: -4 size: 1] [line: 26]														
+.   .   .   Sibling: 2 Var: d of type int [mem: Local loc: -5 size: 1] [line: 26]			     |	.   .   .   Sibling: 2  Var: d  type int [mem: Local loc: -5 size: 1] [line: 26]														
+.   .   Sibling: 1 Compound [mem: None loc: 0 size: -5] [line: 28]						.   .   Sibling: 1  Compound [mem: None loc: 0 size: -5] [line: 28]														
+.   .   .   Child: 0 Var: e of type int [mem: Local loc: -3 size: 1] [line: 29]				     |	.   .   .   Child: 0  Var: e  type int [mem: Local loc: -3 size: 1] [line: 29]														
+.   .   .   Sibling: 1 Var: f of type int [mem: Local loc: -4 size: 1] [line: 29]			     |	.   .   .   Sibling: 1  Var: f  type int [mem: Local loc: -4 size: 1] [line: 29]														
+.   .   Sibling: 2 For [mem: None loc: 0 size: -4] [line: 31]							.   .   Sibling: 2  For [mem: None loc: 0 size: -4] [line: 31]														
+.   .   .   Child: 0 Var: a of type int [mem: Local loc: -3 size: 1] [line: 31]				     |	.   .   .   Child: 0  Var: a  type int [mem: Local loc: -3 size: 1] [line: 31]														
+.   .   .   Child: 1 Range [line: 31]										.   .   .   Child: 1  Range [line: 31]														
+.   .   .   .   Child: 0 Const 1 of type int [line: 31]								.   .   .   .   Child: 0  Const 1 of type int [line: 31]														
+.   .   .   .   Child: 1 Const 10 of type int [line: 31]							.   .   .   .   Child: 1  Const 10 of type int [line: 31]														
+.   .   .   Child: 2 Id: a of type int [mem: Local loc: -3 size: 1] [line: 31]				     |	.   .   .   Child: 2  Id: a [mem: Local loc: -3 size: 1] of type int [line: 31]														
+Offset for end of global space: -46									     |	Offset for end of global space: -53  														
+Number of warnings: 13												Number of warnings: 13														
+Number of errors: 0												Number of errors: 0

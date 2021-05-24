@@ -1,0 +1,11 @@
+====================================										====================================
+FILE: declinitreset.c-												FILE: declinitreset.c-
+a not array 6												     <
+WARNING(6): Variable 'a' may be uninitialized when used here.							WARNING(6): Variable 'a' may be uninitialized when used here.
+a not array 7												     <
+a not array 8												     <
+ERROR(9): Symbol 'z' is not declared.										ERROR(9): Symbol 'z' is not declared.
+ERROR(10): Symbol 'z' is not declared.										ERROR(10): Symbol 'z' is not declared.
+ERROR(11): Symbol 'z' is not declared.										ERROR(11): Symbol 'z' is not declared.
+Number of warnings: 1												Number of warnings: 1
+Number of errors: 3												Number of errors: 3

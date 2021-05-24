@@ -1,0 +1,6 @@
+====================================
+FILE: badarray.c-
+ERROR(3): Cannot return an array.
+WARNING(3): Variable 'x' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 1
